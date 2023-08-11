@@ -19,7 +19,7 @@ struct node
  int info;
  struct node *next;
 };
-int count=0;
+int count;
 struct node *start=NULL;
 int main()
 {
@@ -289,6 +289,7 @@ void delete_pos()
  
  void cnt()
  {
+     int count=0;
      struct node *ptr;
  if(start==NULL)
  {
